@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "FunctionApp1": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7149",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:7149;http://localhost:7150"
+    }
+  }
+}

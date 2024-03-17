@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "AzureWebJobsStorageConnectionStringValue",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "DbConnectionString": "Server=tcp:serverretonet.database.windows.net,1433;Initial Catalog=dbretonet;Persist Security Info=False;User ID=adminretonet;Password=Cirilo159.;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+    "JWT_Secret": "c3799f65790a4003b9618b4c92cdbf1b",
+    "JWT_Issuer": "cirilo",
+    "JWT_Audience": "tomi"
+  }
+}
