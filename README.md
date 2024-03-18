@@ -16,11 +16,17 @@ Cómo Ejecutar el Proyecto
 Abre una terminal o CMD y navega al directorio del proyecto.
 Ejecuta func start para iniciar el proyecto localmente.
 Asegúrate de tener configuradas las variables de entorno necesarias, como la cadena de conexión de la base de datos (DbConnectionString) y las claves para JWT (JWT_Secret, JWT_Issuer, JWT_Audience) en tu archivo local.settings.json.
+
 Rutas de las APIs
+
 Login: POST /api/Login
+
 Registro: POST /api/Register
+
 Login con Google: GET /api/google-login
+
 Callback de Google: GET /api/google-auth-callback
+
 JSON para Probar en Postman
 Login:
   {
